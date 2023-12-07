@@ -1,6 +1,6 @@
 const amqp = require('amqplib');
 
-const EXCHANGE_NAME = 'fanout_exchange';
+const EXCHANGE_NAME = 'user_created';
 
 let count = 0;
 
